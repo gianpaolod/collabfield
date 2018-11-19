@@ -81,13 +81,13 @@ RSpec.configure do |config|
 
   # Load files from the new added gems
   require 'capybara/poltergeist'
-  require 'factory_girl_rails'
+  require 'factory_bot_rails'
   require 'capybara/rspec'
 
   # allows us to use devise methods inside capybara tests
   config.include Devise::Test::IntegrationHelpers, type: :feature
-  # allows to use factory_girl gem’s methods
-  config.include FactoryGirl::Syntax::Methods
+  # allows to use factory_bot gem’s methods
+  config.include FactoryBot::Syntax::Methods
   # required in order to be able to test JavaScript with capybara
   Capybara.javascript_driver = :poltergeist
   Capybara.server = :puma
