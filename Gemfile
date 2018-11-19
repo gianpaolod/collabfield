@@ -13,6 +13,8 @@ gem 'puma', '~> 3.11'
 gem 'jquery-rails'
 # Use Bootstrap fro grid
 gem 'bootstrap-sass', '~> 3.3.6'
+# bootstrap_form is a rails form builder that makes it super easy to create beautiful-looking forms using Twitter Bootstrap 3+
+gem 'bootstrap_form', '~> 2.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
