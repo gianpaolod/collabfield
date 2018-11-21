@@ -36,6 +36,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
+# Add faker to seed probe data
+gem 'faker', '~> 1.9', '>= 1.9.1'
+# Hirb for mini view framework for console
+gem 'hirb', '~> 0.7.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
